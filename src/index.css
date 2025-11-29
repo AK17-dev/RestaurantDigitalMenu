@@ -1,0 +1,14 @@
+body {
+    padding-top: 70px;
+}
+
+.card-img-top {
+    height: 160px;
+    object-fit: cover;
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 120px;
+    }
+}
