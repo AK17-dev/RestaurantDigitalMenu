@@ -10,7 +10,7 @@ export default function CartPage() {
         const order = placeOrder({ name: name || 'Guest' })
         setPlaced(order)
     }
-
+    
     return (
         <div>
             <h2>Your Cart</h2>
